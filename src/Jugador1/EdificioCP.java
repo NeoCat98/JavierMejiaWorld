@@ -175,7 +175,7 @@ public class EdificioCP {
                 case "1":        
                     Edificio = EdificioProducer.getFactory("Creacion de tropas");
                     CreacionDeTropas ET = Edificio.GetCreacionDeTropas();
-                    this.costoM = ET.getCosto();
+                    this.costoM = ET.getCosto()*costoE;
                     if(cantidadM >= this.costoM){
                         this.nombre = "Cuartel de tropas";
                         this.vida = ET.getVida();
@@ -193,7 +193,7 @@ public class EdificioCP {
                 case "2":
                     Edificio = EdificioProducer.getFactory("Creacion de vehiculos");
                     CreacionDeVehiculos EV = Edificio.GetCreacionDeVehiculos();
-                    this.costoM = EV.getCosto();
+                    this.costoM = EV.getCosto()*costoE;
                     if(cantidadM >= this.costoM){
                         this.nombre = "Fabrica de vehiculos";
                         this.vida = EV.getVida();
@@ -211,7 +211,7 @@ public class EdificioCP {
                 case "3":
                     Edificio = EdificioProducer.getFactory("Edificio de Oro");
                     EdificioDeOro EO = Edificio.GetEdificioDeOro();
-                    this.costoM = EO.getCosto();
+                    this.costoM = EO.getCosto()*costoE;
                     if(cantidadM >= this.costoM){
                         this.nombre = "Recolector de Oro";
                         this.vida = EO.getVida();
@@ -229,7 +229,7 @@ public class EdificioCP {
                 case "4":
                     Edificio = EdificioProducer.getFactory("Edificio de Materiales");
                     EdificioDeMateriales EM = Edificio.GetEdificioDeMateriales();
-                    this.costoM = EM.getCosto();
+                    this.costoM = EM.getCosto()*costoE;
                     if(cantidadM >= this.costoM){
                         this.nombre = "Recolector de materia prima";
                         this.vida = EM.getVida();
@@ -247,7 +247,7 @@ public class EdificioCP {
                 case "5":
                     Edificio = EdificioProducer.getFactory("Edificio de Comida");
                     EdificioDeComida EC = Edificio.GetEdificioDeComida();
-                    this.costoM = EC.getCosto();
+                    this.costoM = EC.getCosto()*costoE;
                     if(cantidadM >= this.costoM){
                         this.nombre = "Recolector de comida";
                         this.vida = EC.getVida();
