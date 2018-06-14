@@ -10,17 +10,17 @@ package Raza.Ingeniero;
  * @author javie
  */
 public class EspecialidadIngeniero implements Ingeniero{
-    int creacionT = 3,creacionV = 6,creacionE = 7,costoT = 5,costoV = 5,costoE = 3;
+    int creacionT = 5,creacionV = 6,creacionE = 7,costoT = 4,costoV = 3,costoE = 2;
     @Override
     public void Elegir() {
         System.out.println("");
         System.out.println("------------------INGENIERO------------------");
-        System.out.println("Velocidad de creacion de tropas: [III-------]");
-        System.out.println("Costo de las tropas: [IIIII-----]");
+        System.out.println("Velocidad de creacion de tropas: [IIIII-----]");
+        System.out.println("Costo de las tropas: [IIIIIIII--]");
         System.out.println("Velocidad de cracion de vehiculos: [IIIIII----]");
-        System.out.println("Costo de los vehiculos: [IIIII-----]");
+        System.out.println("Costo de los vehiculos: [IIIIII----]");
         System.out.println("Velocidad de creacion de edificios: [IIIIIII---]");
-        System.out.println("Costo de los edificios: [III-------]");
+        System.out.println("Costo de los edificios: [IIII------]");
         System.out.println("");
     }
     

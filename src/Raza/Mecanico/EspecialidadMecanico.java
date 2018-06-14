@@ -11,18 +11,18 @@ package Raza.Mecanico;
  * @author javie
  */
 public class EspecialidadMecanico implements Mecanico{
-    int creacionT = 2,creacionV = 9,creacionE = 6,costoT = 6,costoV = 2,costoE = 2;
+    int creacionT = 5,creacionV = 7,creacionE = 6,costoT = 4,costoV = 2,costoE = 2;
     
     @Override
     public String Elegir() {
         System.out.println("");
         System.out.println("-------------------MECANICO-------------------");
-        System.out.println("Velocidad de creacion de tropas: [II--------]");
-        System.out.println("Costo de las tropas: [IIIIII----]");
-        System.out.println("Velocidad de cracion de vehiculos: [IIIIIIIII-]");
-        System.out.println("Costo de los vehiculos: [II--------]");
+        System.out.println("Velocidad de creacion de tropas: [IIIII-----]");
+        System.out.println("Costo de las tropas: [IIIIIIII--]");
+        System.out.println("Velocidad de cracion de vehiculos: [IIIIIII---]");
+        System.out.println("Costo de los vehiculos: [IIII------]");
         System.out.println("Velocidad de creacion de edificios: [IIIIII----]");
-        System.out.println("Costo de los edificios: [II--------]");
+        System.out.println("Costo de los edificios: [IIII------]");
         System.out.println("");
         return "hola";
     }

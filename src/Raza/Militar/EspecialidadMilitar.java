@@ -10,18 +10,18 @@ package Raza.Militar;
  * @author javie
  */
 public class EspecialidadMilitar implements Militar {
-    int creacionT = 9,creacionV = 6,creacionE = 2,costoT = 3,costoV = 5,costoE = 7;
+    int creacionT = 7,creacionV = 6,creacionE = 5,costoT = 2,costoV = 3,costoE = 4;
     
     @Override
     public String Elegir() {
         System.out.println("");
         System.out.println("--------------------MILITAR--------------------");
-        System.out.println("Velocidad de creacion de tropas: [IIIIIIIII-]");
-        System.out.println("Costo de las tropas: [III-------]");
-        System.out.println("Velocidad de cracion de vehiculos: [IIIIII----]");
-        System.out.println("Costo de los vehiculos: [IIIII-----]");
-        System.out.println("Velocidad de creacion de edificios: [II--------]");
-        System.out.println("Costo de los edificios: [IIIIIII---]");
+        System.out.println("Velocidad de creacion de tropas: [IIIIIII---]");
+        System.out.println("Costo de las tropas: [IIIIII----]");
+        System.out.println("Velocidad de cracion de vehiculos: [IIII------]");
+        System.out.println("Costo de los vehiculos: [IIIIII----]");
+        System.out.println("Velocidad de creacion de edificios: [IIIII-----]");
+        System.out.println("Costo de los edificios: [IIIIIIII--]");
         System.out.println("");
         return "hola";
     }
