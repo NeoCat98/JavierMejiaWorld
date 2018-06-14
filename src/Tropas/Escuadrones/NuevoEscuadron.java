@@ -11,7 +11,7 @@ package Tropas.Escuadrones;
  */
 public class NuevoEscuadron implements Escuadrones{
     
-    int vida = 50 , ataque = 35 , ataqueE= 20 , velocidad = 5 , tiempo = 5;
+    int vida = 50 , ataque = 35 , ataqueE= 20 , velocidad = 7 , tiempo = 5;
     
     @Override
     public void Elegir() {
