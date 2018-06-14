@@ -10,7 +10,7 @@ package Vehiculos.Carro;
  * @author javie
  */
 public class NuevoCarro implements Carro{
-    int velocidad = 3, cantidadT = 4,tiempo = 5,costo = 600;
+    int velocidad = 3, cantidadT = 4,tiempo = 7,costo = 200;
     @Override
     public void Elegir() {
         System.out.println("Velocidad del carro: " + velocidad);

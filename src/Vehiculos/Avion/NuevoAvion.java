@@ -10,7 +10,7 @@ package Vehiculos.Avion;
  * @author javie
  */
 public class NuevoAvion implements Avion{
-    int Velocidad = 2, cantidadT = 10,tiempo = 8, costo = 1100;
+    int Velocidad = 2, cantidadT = 10,tiempo = 8, costo = 500;
     
     @Override
     public void Elegir() {
