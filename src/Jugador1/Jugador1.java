@@ -307,7 +307,7 @@ public class Jugador1 {
             System.out.println("||||| 7. Recolectar materia prima                  |||||");
             System.out.println("||||| 8. Recolectar comida                         |||||");
             System.out.println("||||| 9. Mostrar edificios creados                 |||||");
-            System.out.println("||||| 10.Regresar                                 |||||");
+            System.out.println("||||| 10.Regresar                                  |||||");
             System.out.println("|||||                                              |||||");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             System.out.println("");
