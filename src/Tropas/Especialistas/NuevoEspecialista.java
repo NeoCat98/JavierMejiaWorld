@@ -11,7 +11,7 @@ package Tropas.Especialistas;
  */
 public class NuevoEspecialista implements Especialistas{
     
-    int vida = 300 , ataqueE=60 , ataque = 120, velocidad = 7 , tiempo = 10;
+    int vida = 300 , ataqueE=60 , ataque = 120, velocidad = 8 , tiempo = 10;
     
     @Override
     public void Elegir() {
