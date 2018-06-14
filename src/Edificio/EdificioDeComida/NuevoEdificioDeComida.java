@@ -10,7 +10,7 @@ package Edificio.EdificioDeComida;
  * @author javie
  */
 public class NuevoEdificioDeComida implements EdificioDeComida{
-    int vida = 150, recursoComida = 20,Tiempo = 10, costo = 100;
+    int vida = 150, recursoComida = 20,Tiempo = 10, costo = 75;
     
     @Override
     public void Elegir() {
