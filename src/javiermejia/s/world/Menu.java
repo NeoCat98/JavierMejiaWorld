@@ -164,12 +164,12 @@ public class Menu {
             System.out.println("");
             System.out.println("");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
-            System.out.println("||||||             FIN DEL TURNO DEL JUGADOR #1          |||||");
+            System.out.println("||||||             FIN DEL TURNO DEL JUGADOR #2          |||||");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             System.out.println("");
             System.out.println("");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
-            System.out.println("|||||                TURNO DEL JUGADOR #2                |||||");
+            System.out.println("|||||                TURNO DEL JUGADOR #1                |||||");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             while(turnoA){
                 String A;
@@ -330,7 +330,7 @@ public class Menu {
             System.out.println("");
             System.out.println("");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
-            System.out.println("||||||             FIN DEL TURNO DEL JUGADOR #1          |||||");
+            System.out.println("||||||             FIN DEL TURNO DEL JUGADOR #2          |||||");
             System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
             System.out.println("");
             System.out.println("");
